@@ -1,0 +1,19 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.green-btn {
+    outline: none;
+    background: #008000;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.orange-btn {
+    indent: 10px;
+    outline: none;
+    background: #FF8C00;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
