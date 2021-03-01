@@ -1,0 +1,11 @@
+.para {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    background: rgb(64, 224, 208);
+    color: black;
+}
