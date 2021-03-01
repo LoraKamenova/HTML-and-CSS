@@ -1,0 +1,22 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+span, ul, nav {
+    display: inline-block;
+}
+
+span {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    color: green;
+    margin: 20px;
+}
