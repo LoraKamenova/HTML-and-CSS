@@ -1,0 +1,87 @@
+/*body {*/
+/*    font-family: Georgia, sans-serif;*/
+/*    background: rgb(238, 238, 238);*/
+/*}*/
+
+/*h3 {*/
+/*font-size: 1em;*/
+/*}*/
+
+/*div {*/
+/*    display: block;*/
+/*}*/
+
+
+/*.button {*/
+/*    background: rgb(0, 153, 0) ;*/
+/*    padding: 10px 15px;*/
+/*    border-radius: 5px;*/
+/*    float: right;*/
+/*    color: white;*/
+/*    outline: none;*/
+/*}*/
+
+/*img {*/
+/*    position: absolute;*/
+/*    width: 400px;*/
+/*    height: 230px;*/
+/*    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25) ;*/
+/*}*/
+
+/*.div-one {*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    left:35%;*/
+
+/*}*/
+
+/*.div-two {*/
+/*    position: absolute;*/
+/*    background: rgb(255, 255, 255);*/
+/*    width: 400px;*/
+/*    height: 180px;*/
+/*    top: 50%;*/
+/*    left: 35%;*/
+/*    padding: 20px;*/
+/*    box-sizing: border-box;*/
+/*    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25) ;*/
+/*}*/
+
+body {
+    margin: 0;
+    background: #EEEEEE;
+    font-family: "Georgia", serif;
+    font-size: 1em;
+}
+
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    background: white;
+}
+
+.card-content {
+    padding: 205px 15px 15px 15px;
+}
+
+.card-image-container img {
+    width: 100%;
+    max-height: 200px;
+    max-width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: absolute;
+}
+
+.card-btn {
+    position: relative;
+    right: -75%;
+    background: #029902;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 15px;
+}
