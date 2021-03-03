@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background: #EEEEEE;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+header, main, aside, footer {
+    background: white;
+    color: black;
+    border:  1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.55);
+    margin: 5px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+header {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 90%;
+    height: 130px;
+}
+
+
+main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 60%;
+    height: 320px;
+}
+
+
+aside {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 30%;
+    height: 320px;
+}
+
+
+footer {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 90%;
+    height: 80px;
+}
