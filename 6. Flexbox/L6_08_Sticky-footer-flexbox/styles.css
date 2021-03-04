@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 3px solid gray;
+    padding: 5px
+}
+
+header {
+    flex: 0 1 100%;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+main {
+    margin: 0;
+    text-align: start;
+    padding: 15px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    align-self: end;
+
+}
+
