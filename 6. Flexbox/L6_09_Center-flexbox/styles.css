@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px #000000;
+    width: 350px;
+    height: 130px;
+    padding: 5px 15px;
+}
