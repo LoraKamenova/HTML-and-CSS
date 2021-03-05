@@ -1,0 +1,110 @@
+body {
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+
+}
+
+html {
+    font-size: 12px;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    flex: 0 1 80%;
+    padding-left: 0;
+    border-bottom: 3px solid gray;
+}
+
+div {
+    margin: 10px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    /*font-size: 1em;*/
+}
+
+.quote {
+    border-left: 2px solid #DCDCDC;
+    font-family: Georgia, serif;
+    font-style: italic;
+    float: right;
+    display: inline-block;
+    width: 300px;
+}
+
+.text-fill {
+    padding: 0 10px;
+    margin: 0;
+}
+.author {
+    text-align: right;
+}
+
+img {
+    border: 2px solid black;
+    padding: 7px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25) ;
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25) ;
+}
+
+.pic-one {
+    float: right;
+}
+
+.pic-two {
+    float: left;
+}
+
+
+
+@media all and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+@media all and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
